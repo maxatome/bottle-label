@@ -3,7 +3,6 @@
 ## Installation
 
 ```
-go get github.com/jung-kurt/gofpdf
 go install
 ```
 
@@ -16,7 +15,7 @@ bottle-label -font georgia.json -output wine.pdf \
     "Romain Duvernay\nVisan - 2016\nCôtes du Rhône V. - 5,30"
 ```
 
-![bottle-label example](exemple.png?raw=true "bottle-label")
+![bottle-label example](example.png?raw=true "bottle-label")
 
 The `georgia.json` has to be generated with `makefont` utility of
 `gofpdf` package, see https://github.com/jung-kurt/gofpdf#nonstandard-fonts
